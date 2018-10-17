@@ -1,0 +1,80 @@
+/*find all the <h1> elements in the page*/
+h1 {
+  color: red;
+  font-size: 20px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.text-center{
+  text-align: center;
+}
+.img-circle{
+  border-radius: 50%;
+}
+
+.card{
+  background-color: white;
+  border-radius: 8px;
+  margin: 20px 0;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.btn{
+  background-color: #D84B4B;
+
+  color: white;
+
+  border-radius: 49px;
+
+  padding: 12px 16px;
+
+  text-decoration: none;
+}
+
+.list-inline{
+  /*pl0 + tab*/
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*p {
+  font-size: 30px;
+  text-align: center;
+}
+*/
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: gray;
+  /*background-color: rgba(255, 83, 13, 0.2);;*/
+}
+/*id then we use #*/
+/*#profile {
+  border: 10px solid black;
+}*/
+/*class so we have to use .*/
+/*.img-circle{
+  border-radius: 50%;
+}
+*/
+/*#banner > p{
+  color: red;
+}
+*/
+h1,
+h2,
+h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  color: green;
+  text-decoration: underline;
+}
