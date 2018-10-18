@@ -63,11 +63,13 @@ separadinho*/
   border-radius: 8px;
   margin: 20px 0;
   border: 1px solid rgba(0, 0, 0, 0.3);
+  /*margin-left: 100px;*/
 
 }
 .container {
   padding: 50px;
-  margin: 0 auto;
+  /*margin-right: 100px;*/
+  /*margin: 0 auto;*/
   /*width: 20000px;*/
 
 
@@ -92,3 +94,68 @@ td {
 #first_subject {
   background_i
 }
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+
+  }
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .Subject {
+    width: 700px;
+    margin: 0 auto;
+
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .Subject {
+    width: 500px;
+    margin: 0 auto;
+
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .Subject {
+    width: 300px;
+    margin: 0 auto;
+
+  }
+}
+.container {
+  /* We first create a flex layout context */
+  display: flex;
+
+  /* Then we define the flow direction
+     and if we allow the items to wrap
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+}
+
+
