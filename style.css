@@ -66,7 +66,7 @@ separadinho*/
 
 }
 .container {
-  padding: 300px;
+  padding: 600px;
   /*align-self: center;*/
   /*width: 500px;*/
   /*display: table;*/
@@ -104,34 +104,35 @@ td {
 .container {
   display: flex;
   flex-flow: column wrap;
-  flex-flow: row wrap;
-  padding: 500px;
-  margin: 0 auto;
   /* This aligns items to the end line on main-axis */
-  /*justify-content: flex-end;*/
+  justify-content: flex-end;
 
-  /*flex-direction: row;*/
-  /*flex-wrap: wrap;*/
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
 
-/* Medium screens */
-@media all and (max-width: 800px) {
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
   .container {
-    /* When on medium sized screens, we center it by evenly distributing empty space around items */
-    justify-content: space-around;
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
   }
 }
 
-/* Small screens */
-@media all and (max-width: 500px) {
-  .container {
-    /* On small screens, we are no longer using row direction but column */
-    flex-direction: column;
-  }
-}
 
 
 
