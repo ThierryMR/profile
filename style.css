@@ -49,7 +49,7 @@ h2{
 
 
 body{
-  background-color: green;
+  /*background-color: green;*/
   background-image: url("https://estudosaduaneiros.com/wp-content/uploads/2017/10/Seguran%C3%A7a-dos-sistemas-de-criptomoedas.jpg")
 }
 
@@ -68,7 +68,8 @@ separadinho*/
 }
 .container {
   padding: 50px;
-  /*margin-right: 100px;*/
+  /*margin-left: 100px;*/
+  margin: 0 auto;
   /*margin: 0 auto;*/
   /*width: 20000px;*/
 
@@ -90,16 +91,17 @@ td {
 
 
 }
-
+/*
 #first_subject {
   background_i
-}
+}*/
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
     margin: 0 auto;
+
   }
 }
 @media (max-width: 720px) {
