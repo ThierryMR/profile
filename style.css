@@ -105,6 +105,8 @@ td {
   display: flex;
   flex-flow: column wrap;
   flex-flow: row wrap;
+  padding: 500px;
+  margin: 0 auto;
   /* This aligns items to the end line on main-axis */
   /*justify-content: flex-end;*/
 
